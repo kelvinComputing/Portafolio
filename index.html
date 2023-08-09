@@ -4,111 +4,286 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <title>Portafolio Kelvin</title>
 </head>
+
 <body>
-    <header class="Header">
+    <header class="header">
         <div class="wrapper">
             <div class="header-content">
-                <img src="./img/logo.jpg" alt="" width="80px" height="80px">
+                <img src="./img/LOGO MIO.png" alt="" width="150" height="100">
                 <nav class="menu">
                     <ul>
                         <li>
-                            Inicio
+                            <a href="#main" class="is-active">
+                                Inicio
+                            </a>
                         </li>
                         <li>
-                            Proyectos
+                            <a href="#project" class="is-active">
+                                Proyectos
+                            </a>
+                        </li>
+                        <li > 
+                            <a href="#certificated" class="is-active">
+                                Certificados
+                            </a>
                         </li>
                         <li>
-                            Certificados 
-                        </li>
-                        <li>
-                            Contactos
+                            <a href="#contact" class="is-active">
+                                Contactos
+                            </a>
                         </li>
                     </ul>
                 </nav>
-                <a 
-                href=""
-                download=""
-                class="button"
-                >
-                Nuestro currriculo
+                <a download="CVitae Kelvin Contreras" href="./assets/Sintesis Curricular Kelvin Contreras.pdf" class="button">
+                    Curriculum Vitae
                 </a>
             </div>
         </div>
-        <div class="header-logo">
-            <img src="" alt="">
-        </div>
+
     </header>
+    
+    
+
     <div class="wrapper">
-        <section class="hero" id="main">
-            <div class="hero-image">
-                <img src="./img/logo.jpg" alt="" width="80" height="80">
-            </div>
-            <div class="hero-description">
-                <h1>
-                   <span>
-                    Hola a todos
-                   </span> 
-                   <span class="typed">
-                   </span>
-                </h1>
-                <p>estoy en proceso de aprendizaje full stack
-                </p>
-                <div class="Social">
-                    <a href="" class="button-icon">
+        <div id="particles-js">
+            <section class="hero" id="main">
+                <div class="hero-image">
+                    <img src="./img/foto.png" alt="" width="" height="">
+                </div>
+                <div class="hero-description">
+                    <h1>
+                        <span>Hola a todos!</span>
+                        <span class="typed">Soy Kelvin Contreras @KelvinComputing </span>
+                        <span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span>
+                    </h1>
+                    <p>Mi objetivo principal es desarrollarme profesionalmente y evolucionar en mi sector, de modo que busco oportunidades que me permitan hacerlo...</p>
+                <div class="social">
+                    <a href="https://www.instagram.com/kelvin.colina/" class="button-icon">
                         <img src="./icons/icon-instagram.svg" alt="">
                     </a>
-                    <a href="" class="button-icon">
+                    <a href="https://github.com/kelvinComputing" class="button-icon">
                         <img src="./icons/icon-github.svg" alt="">
                     </a>
-                    <a href="" class="button-icon">
-                        <img src="./icons/icon-twitter_squared.svg" alt="">
-                    </a>
-                    <a href="" class="button-icon">
+                    <a href="https://www.linkedin.com/in/kelvin-rodolfo-contreras-colina-551a05252/" class="button-icon">
                         <img src="./icons/linkedin-icon-1 1.svg" alt="">
                     </a>
                 </div>
-                <a href="" class="button">
-                    Descargar Curriculo 
-                </a>
-            </div>
-        </section>
-        <section class="Coment">
+                    <a href="./assets/Sintesis Curricular Kelvin Contreras.pdf" class="button"> Curriculum</a>
+                </div>
+            </section>
+        </div>
+
+        <section class="coment">
             <div class="coment-top">
-                <p>
-                    baja para ver los proyectos
-                </p>
+              <p>
+                A lo largo de mi carrera, he tenido el privilegio de trabajar en proyectos desafiantes y sorprendentes.
+              </p>
             </div>
-            <div class="coment-bot">
-                <p>
-                    aca hay referencias
-                </p>
+            <div class="coment-bottom">
+              <p>Aquí hay algunos que me gustaría compartir.</p>
             </div>
             <div class="coment-arrow">
-                <img src="./icons/icons-down.svg" alt="">
+              <img src="./icons/icons-down.svg" width="80" height="80" />
             </div>
-        </section>
+          </section>
+
         <div class="project" id="project">
-            <div class="project-img">
-                <img src="./img/logo.jpg" alt="" width="80" height="80">
+            <div class="project-image">
+                <img src="./img/peohect1.png" alt="" height="450px" width="550px">
             </div>
             <div class="project-description">
-                <a href="" class="tittle">
-                    Nombre de proyecto
+                <a href="https://github.com/kelvinComputing/landin-page-" class="title" target="_blank">
+                    Landing Page
                 </a>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsa debitis id numquam quibusdam perferendis quia ducimus soluta et corrupti!</p>
-                <a href="" class="button is-secundary" target="_blank">
-                    Ver codigo
+                <p> Me gusta el videojuego League of Legends WildRift por lo que he decidido en este proyecto mostrar algunos de los campeones con sus builds.</p>
+                <a href="https://kelvincomputing.github.io/landin-page-/" class="button">
+                    Ver proyecto
                 </a>
-                <a href="" class="button" target="_blank">
-                    ver proyecto
+                <a href="https://github.com/kelvinComputing/landin-page-" class="button">
+                    Código del proyecto
                 </a>
             </div>
         </div>
+
+        <section class="card">
+            <div class="card-image">
+                <img src="./img/edtecnica.png" alt="" width="64" height="64">
+            </div>
+            <div class="card-text_top">
+                <p>"
+                    Felicitaciones por aprobar el proyecto".</p>
+            </div>
+            <div class="card-text_bottom">
+                <p>EDTecnica</p>
+            </div>
+        </section>
+
+        <div class="project">
+            <div class="project-image-par">
+              <img src="./img/project2.png" alt="" />
+            </div>
+            <div class="project-description">
+              <a class="title" href="https://github.com/kelvinComputing/creditCar" target="_blank"
+                >Simulador Tarjeta de Credito</a
+              >
+              <p>
+                Este proyecto fue un pequeño simulador de tarjeta de crédito aprendiendo javascript.
+              </p>
+              <a
+                href="https://kelvincomputing.github.io/creditCar/"
+                class="button is-secondary"
+                target="_blank"
+                >Ver proyecto</a
+              >
+              <a href="https://github.com/kelvinComputing/creditCar" class="button" target="_blank"
+                >Código del proyecto</a
+              >
+            </div>
+          </div>
+
+          <section class="card">
+            <div class="card-image">
+                <img src="./img/edtecnica.png" alt="" width="64" height="64">
+            </div>
+            <div class="card-text_top">
+                <p>"
+                    Felicitaciones por aprobar el proyecto".</p>
+            </div>
+            <div class="card-text_bottom">
+                <p>EDTecnica</p>
+            </div>
+        </section>
+
+        <div class="project" id="project">
+            <div class="project-image">
+                <img src="./img/peoject3.png" alt="" height="450px" width="550px">
+            </div>
+            <div class="project-description">
+                <a href="https://github.com/kelvinComputing/result-summary" class="title" target="_blank">
+                    Result Summary
+                </a>
+                <p>Pequeño desafio de la página frontendMentor.</p>
+                <a href="https://kelvincomputing.github.io/result-summary/" class="button">
+                    Ver proyecto
+                </a>
+                <a href="https://github.com/kelvinComputing/result-summary" class="button">
+                    Código del proyecto
+                </a>
+            </div>
+        </div>
+
+        <section class="card">
+            <div class="card-image">
+                <img src="./img/edtecnica.png" alt="" width="64" height="64">
+            </div>
+            <div class="card-text_top">
+                <p>"
+                    Felicitaciones por aprobar el proyecto".</p>
+            </div>
+            <div class="card-text_bottom">
+                <p>EDTecnica</p>
+            </div>
+        </section>
+        
+        <section class="coment">
+            <div class="coment-bottom">
+              <p>
+                ¡En esta sección encontrarás la mayoría de los cursos que he aprobado durante mi carrera! 
+                <br>a lo largo de mi carrera!</br> 
+              </p>
+            </div>
+            <div class="coment-arrow">
+              <img src="./icons/icons-down.svg" width="80" height="80">
+            </div>
+          </section>
+
+        <section class="certificated" id="certificated">
+            <div class="swiper swiperCertificated">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./img/cert1.jpeg" alt="" height="450px">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/cert2.jpeg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/cert3.jpeg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/cert4.jpeg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/cert5.jpeg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/cert6.jpeg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/cert7.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        
+
+        <form action="https://formspree.io/f/xvodrydq" method="POST" class="form" id="contact"></form>
+        <div class="form-img">
+        <div class="form-content">
+            <h2 class="title">Contacto</h2>
+            <p> Si estás interesado en involucrarme en tu próximo proyecto, no dudes en contactarme. </p>
+            <label for="form-name">
+                Nombre completo
+                <input required="" type="text" name="name" id="form-name" placeholder="Kelvin Contreras">
+            </label>
+            <label for="form-email">
+                Correo electrónico
+                <input required="" type="email" name="email" id="form-email" placeholder="kelvin@gmail.com">
+            </label>
+            <label for="form-message">
+                Mensaje
+                <textarea required="" name="message" id="form-message" placeholder="Mensaje..." cols="30" rows="7"></textarea>
+            </label>
+            <button class="button" type="submit">Enviar mensaje</button>
+          </div>
+          <a
+          href="mailto:kelvincontrera1@gmail.com"
+          id="send"
+          target="_blank"
+          >mail</a>
+        </div>
+        </form>
     </div>
 
-
+    <script src="./src/typed.js"></script>
+    <script src="./src/swiper-bundle.min.js"></script>
+    <script src="./src/swiper.js"></script>
+    <script src="./src/main.js" ></script>
+    <script src="./src/form.js"> </script>
+    <style type="text/css" data-typed-js-css="true">
+        .typed-cursor{
+          opacity: 1;
+        }
+        .typed-cursor.typed-cursor--blink{
+          animation: typedjsBlink 0.7s infinite;
+          -webkit-animation: typedjsBlink 0.7s infinite;
+                  animation: typedjsBlink 0.7s infinite;
+        }
+        @keyframes typedjsBlink{
+          50% { opacity: 0.0; }
+        }
+        @-webkit-keyframes typedjsBlink{
+          0% { opacity: 1; }
+          50% { opacity: 0.0; }
+          100% { opacity: 1; }
+        } </style>
+                                                                          
 </body>
 
 </html>

@@ -1,0 +1,27 @@
+.button {
+    background-color: #f2f2f2;
+    color: var(--primarycolor);
+    font: var(--button);
+    padding-inline-start: 24px;
+    padding-inline-end: 24px;
+    padding-block-start: 13px;
+    padding-block-end: 13px;
+    text-transform: uppercase;
+    border-radius: 90px;
+    border: 2px solid var(--primarycolor);
+    box-shadow: -4px 4px 14px #000;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button .is-secondary{
+    background-color: unset;
+    border: 2px solid var(--primarycolor);
+} 
+
+.button:hover {
+    background-color: #81e8d5;
+    transition: .4s ease all;
+    color: #000;
+}

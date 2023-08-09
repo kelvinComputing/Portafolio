@@ -1,0 +1,46 @@
+.coment {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-block-start: 40px;
+    padding-block-end: 40px;
+}
+
+.coment-top p {
+    font: var(--coment2);
+    text-align: center;
+    margin: 0;
+  }
+
+.coment-bottom p {
+    font: var(--headLine5);
+    text-align: center;
+    margin: 0;
+}
+
+
+.coment-arrow img {
+    display: block;
+    margin: auto;
+}
+
+
+@media screen and (min-width: 768px){
+
+.coment {
+    padding-block-start: 40px;
+    padding-block-end: 40px;
+}
+
+.coment-top p {
+    font: var(--coment);
+    margin: 0;
+  }
+
+.coment-bottom p {
+    margin: 0;
+}
+
+
+
+}
