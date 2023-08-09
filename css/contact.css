@@ -21,6 +21,11 @@
     margin: 0;
 }
 
+.form-content .title {
+    align-self: stretch;
+    text-align: center;
+}
+
 .title {
 background-color: var(--secondaryColor);
 color: var(--primaryColor);
